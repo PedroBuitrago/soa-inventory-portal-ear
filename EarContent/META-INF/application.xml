@@ -4,10 +4,10 @@
   <module>
     <ejb>soa-inventory-portal-ejb.jar</ejb>
   </module>
-  <!--<module>
+  <module>
     <web>
       <web-uri>soa-inventory-portal.war</web-uri>
-      <context-root>soa-inventory-portal</context-root> 
+      <context-root>soa-inventory-portal</context-root>
     </web>
-  </module>-->
+  </module>
 </application>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
     <wb-module deploy-name="soa-inventory-portal-ear">
         <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
-        <dependent-module archiveName="soa-inventory-ejbclient.jar" deploy-path="/lib" handle="module:/resource/soa-inventory-ejbclient/soa-inventory-ejbclient">
-            <dependency-type>uses</dependency-type>
-        </dependent-module>
         <dependent-module archiveName="soa-inventory-portal-ejb.jar" deploy-path="/" handle="module:/resource/soa-inventory-portal-ejb/soa-inventory-portal-ejb">
             <dependent-object/>
             <dependency-type>uses</dependency-type>
@@ -11,7 +8,7 @@
         <dependent-module archiveName="soa-inventory-portal-ejbclient.jar" deploy-path="/lib" handle="module:/resource/soa-inventory-portal-ejbclient/soa-inventory-portal-ejbclient">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="soa-inventory-portal.war" deploy-path="/" handle="module:/resource/soa-inventory-portal/soa-inventory-portal">
+        <dependent-module archiveName="soa-inventory-portal.war" deploy-path="/" handle="module:/resource/soa-inventory-portal-war/soa-inventory-portal-war">
             <dependent-object/>
             <dependency-type>uses</dependency-type>
         </dependent-module>

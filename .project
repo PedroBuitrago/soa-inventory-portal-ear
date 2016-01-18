@@ -3,10 +3,9 @@
 	<name>soa-inventory-portal-ear</name>
 	<comment></comment>
 	<projects>
-		<project>soa-inventory-ejbclient</project>
 		<project>soa-inventory-portal-ejb</project>
 		<project>soa-inventory-portal-ejbclient</project>
-		<project>soa-inventory-portal</project>
+		<project>soa-inventory-portal-war</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
